@@ -1,0 +1,862 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Blooming</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="dist/aos.css" />
+
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   
+    <!--If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
+        Slide effect: slide, fade
+        Text Align: slide_style_center, slide_style_left, slide_style_right
+        Add Text Animation: https://daneden.github.io/animate.css/
+        -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+	
+<script>
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 20){  
+        jQuery('.header').addClass("sticky");
+    }
+    else{
+        jQuery('.header').removeClass("sticky");
+    }
+});
+
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 20){  
+        jQuery('.back-to-top').addClass("scroll");
+    }
+    else{
+        jQuery('.back-to-top').removeClass("scroll");
+    }
+});
+</script>
+
+</head>
+<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
+<div class="page-wrapper chiller-theme">
+  <nav id="sidebar" class="sidebar-wrapper">
+    <div class="sidebar-content">
+	
+      <div class="sidebar-brand">
+        <div id="close-sidebar"><span></span></div>
+      </div>
+
+      <div class="sidebar-menu">
+        <ul>
+		  <li class="current-menu-item"><a href="index.html">Home</a></li>
+          <li class="sidebar-dropdown">
+            <a>About Blooming</a>
+            <ul class="sub-menu">
+                <li><a href="#">About Us</a></li>
+				<li><a href="#">History of School</a></li>
+				<li><a href="#">Management</a></li>
+				<li><a href="#">Our Location</a></li>
+				<li><a href="#">Emblem</a></li>
+            </ul>
+          </li>
+		  <li><a href="#">Faculty</a></li>
+		  <li><a href="#">Infrastructure</a></li>
+		  <li><a href="#">Achievers</a></li>
+		  
+		  <li class="sidebar-dropdown">
+            <a href="#">Academics</a>
+			<ul class="sub-menu">
+			  <li><a href="#">Curriculum</a></li>
+			  <li><a href="#">Annual Report</a></li>
+			  <li><a href="#">Class wise books</a></li>
+			</ul>
+          </li>
+		  
+		  <li><a href="#">Activities</a></li>
+		  
+		  <li class="sidebar-dropdown">
+            <a href="#">Admissions</a>
+			<ul class="sub-menu">
+			  <li><a href="#">Procedure</a></li>
+			  <li><a href="#">Download Form</a></li>
+			  <li><a href="#">Rule &amp; Regulation</a></li>
+			</ul>
+          </li>
+		  
+		  <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div><!-- sidebar-menu  -->
+	  
+	  <div class="sidebar-info">
+	    <h2>let’s make something together</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<address>
+		  <h3>Phone support</h3>
+		  <p><a href="tel:+91 9876543210">Office : +91 9876543210</a> <br><a href="tel:+91 9876543210">Mob No. : +91 9876543210</a></p>
+		</address>
+		<address>
+		  <h3>Email us</h3>
+		  <p><a href="mailto:blooming@gmail.com">blooming@gmail.com</a> <br><a href="mailto:info@blooming.com">info@blooming.com</a></p>
+		</address>
+		
+		<div class="icon-top">
+		  <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+		  <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+		  <a href="#" target="_blank"><i class="fa fa-instagram"></i></a> 
+		  <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+		</div>
+		  
+      </div><!-- sidebar-info -->
+    </div><!-- sidebar-content  -->
+  </nav>
+  
+<main class="page-content">
+<div class="full-body hidden"></div>
+<header class="header">  
+  <div class="menu-head">             
+    <div class="container">	  
+      
+	  <nav class="navbar navbar-expand-lg">
+	    <div class="container-fluid">
+		
+		  <a class="navbar-brand" href="#">
+		    <img src="images/logo.png" alt="">
+			<span>Blooming Buds School <small><small>We Creates Future Students</small>CBSE Affiliation No :  2430297</small></span>
+		  </a>
+		  
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		  
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav">
+			  <li><a href="#">Admission Support</a></li>
+			  <li><a href="#">Faculty</a></li>
+			  <li><a href="#">Fee & Funds</a></li>
+			  <!--li class="sub-drop"><a href="#">Service</a>
+			    <ul class="sub-menu">
+			      <li><a href="#">Telecommunications equipment trading</a></li>
+			      <li><a href="#">Mobile Phones trading</a></li>
+			      <li><a href="#">Accessories trading</a></li>
+			      <li><a href="#">Watches & clocks trading</a></li>
+			      <li><a href="#">Spare parts trading</a></li>
+			      <li><a href="#">Audio Visual recording equipment & accessories trading</a></li>
+			    </ul>
+			  </li-->
+			  <li><a href="#">Team</a></li>
+			  <li><a href="#">Contact Us</a></li>
+		    </ul>
+			
+			<div class="call-us"><span>Have Any Questions? </span><a href="tel:+91 9876543210"><i class="fa fa-headphones"></i> +91 9876543210</a> <span class="menu-divider"></span></div>
+			
+		  </div>
+		  
+		  <a id="show-sidebar" class="btn"><span></span></a>
+		  
+	    </div>
+	  </nav>
+	    
+    </div><!--/ menu-head -->           
+  </div><!--/ container -->
+</header>
+
+<section class="banner" id="Home">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    
+	<div class="carousel-inner">
+      
+	  <div class="carousel-item active">
+	    <figure><img src="images/slider-01.jpg" alt="image"  class="slide-image"/></figure>
+	  </div>
+	  
+	  <div class="carousel-item">
+	    <figure><img src="images/slider-02.jpg" alt="image"  class="slide-image"/></figure>
+	  </div>
+    
+	</div><!--/ carousel-inner -->
+	
+	<button class="carousel-control-prev left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"><span class="carousel-control-prev-icon fa fa-angle-left" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+	
+	<button class="carousel-control-next right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"><span class="carousel-control-next-icon fa fa-angle-right" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+  </div> 
+  
+</section><!--/ banner -->
+
+<section class="tag-sec">
+  <div class="container">
+    <div class="row">           
+	  
+	  <div class="col-sm-3 tw-coll">
+	    <div class="info-content">
+	      <div class="inner">
+		    <h3>1000+</h3>
+	        <h4>Students At Blooming</h4>
+	      </div>	  
+	    </div>	  
+	  </div>
+	  
+	  <div class="col-sm-3 tw-coll">
+	    <div class="info-content">
+	      <div class="inner">
+	        <h3>100+</h3>
+	        <h4>Professional Teachers</h4>
+	      </div>	  
+	    </div>	  
+	  </div>
+	  <div class="col-sm-3 tw-coll">
+	    <div class="info-content">
+	      <div class="inner">
+		    <h3>50+</h3>
+	        <h4>Smart Class Rooms</h4>
+	      </div>	  
+	    </div>	  
+	  </div>
+	  
+	  <div class="col-sm-3 tw-coll">
+	    <div class="info-content">
+	      <div class="inner">
+	        <h3>15+</h3>
+	        <h4>Years of Experiences</h4>
+	      </div>	  
+	    </div>	  
+	  </div>	  
+	  
+    </div><!--/ row --> 
+  </div>
+</section>
+
+<section class="services-list">
+  <div class="container">
+    <div class="row">           
+	  
+	  <div class="col-xl-3 col-md-6 services-col aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <h2><span>Resources</span>Our Resources</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  </div><!--/ col-sm -->
+	  
+	  <div class="col-xl-3 col-md-6 services-col aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="item">
+		  <figure><img src="images/services-01.jpg" alt="Image"></figure>
+		  <div class="info">
+			<h4>Computer Lab</h4>
+			<p class="days"><a href="#" class="btn">View More</a></p>
+		  </div>
+		</div><!--/ item -->
+	  </div><!--/ col-sm -->
+		
+	  <div class="col-xl-6 col-md-8 services-col aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="item">
+		  <figure><img src="images/services-02.jpg" alt="Image"></figure>
+		  <div class="info">
+			<h4>Art & Craft</h4>
+			<p class="days"><a href="#" class="btn">View More</a></p>
+		  </div>
+		</div><!--/ item -->
+	  </div><!--/ services-col -->  
+	  
+	  <div class="col-xl-3 col-md-4 services-col aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="item">
+		  <figure><img src="images/services-03.jpg" alt="Image"></figure>
+		  <div class="info">
+			<h4>Music Room</h4>
+			<p class="days"><a href="#" class="btn">View More</a></p>
+		  </div>
+		</div><!--/ item -->
+	  </div><!--/ services-col --> 
+	  
+	  <div class="col-xl-3 col-md-4 services-col aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="item">
+		  <figure><img src="images/services-04.jpg" alt="Image"></figure>
+		  <div class="info">
+			<h4>Library</h4>
+			<p class="days"><a href="#" class="btn">View More</a></p>
+		  </div>
+		</div><!--/ item -->
+	  </div><!--/ services-col --> 
+	  
+	  <div class="col-xl-3 col-md-4 services-col aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="item">
+		  <figure><img src="images/services-05.jpg" alt="Image"></figure>
+		  <div class="info">
+			<h4>Chemistry Lab</h4>
+			<p class="days"><a href="#" class="btn">View More</a></p>
+		  </div>
+		</div><!--/ item -->
+	  </div><!--/ services-col -->  
+	  
+	  <div class="col-xl-3 col-md-4 services-col aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="item">
+		  <figure><img src="images/services-06.jpg" alt="Image"></figure>
+		  <div class="info">
+			<h4>Physics Lab</h4>
+			<p class="days"><a href="#" class="btn">View More</a></p>
+		  </div>
+		</div><!--/ item -->
+	  </div><!--/ services-col -->   
+     
+    </div><!--/ row --> 
+  </div>
+</section><!--/ services-list -->       
+
+<section class="about-sec">
+  <div class="container">
+	
+	<div class="row"> 
+	  <div class="col-sm-6 about-left aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="about-padd">
+	      <h2><small>About Us</small>Blooming <span>Buds</span></h2>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+		  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+		  <p><a href="#" class="btn">View More</a></p>
+        </div><!--/ col-sm -->
+      </div><!--/ col-sm -->
+	  
+	  <div class="col-sm-6 about-right aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="about-shape"><img src="images/destination-shape.png" alt="image"></div>
+		<div class="about-counter">We have more than 15 years of experience</div>
+	    <div class="row align-items-center aboutImg">
+		  <div class="col-sm-5 img1">
+		    <figure><img src="images/about-01.jpg" alt="image"></figure>
+		    <figure><img src="images/about-02.jpg" alt="image"></figure>
+		  </div>
+		  
+		  <div class="col-sm-7 img2">
+		    <figure><img src="images/about-03.jpg" alt="image"></figure>
+		  </div>
+		</div>
+	  </div><!--/ about-right -->
+     
+    </div><!--/ row --> 
+  </div>
+</section>   
+
+<section class="form-wrap">	
+  <div class="container">
+    <div class="row">           
+	  
+	  <div class="col-sm-12 right">
+	    <h2 class="aos-animate" data-aos="fade-up" data-aos-duration="1000"><span>Connect with Blooming Buds School</span> Get More Update</h2>
+		
+	    <div class="form-info aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		  <form>		    
+			<div class="form-group col-sm-3">
+			  <div class="input-group">
+			    <div class="input-group-addon"><div class="fa fa-user-o"></div></div>
+                <input type="text" placeholder="Your Name" class="form-control">
+              </div>
+			</div>
+			
+			<div class="form-group col-sm-3">
+			  <div class="input-group">
+			    <div class="input-group-addon"><div class="fa fa-envelope-o"></div></div>
+                <input type="text" placeholder="Your Email" class="form-control">
+              </div>
+			</div>
+			
+			<div class="form-group col-sm-3">
+			  <div class="input-group">
+			    <div class="input-group-addon"><div class="fa fa-phone"></div></div>
+                <input type="text" placeholder="Phone No" class="form-control">
+              </div>
+			</div>
+			
+		    <div class="form-group col-sm-3"><button type="submit" class="btn">Submit Now</button></div>
+		  </form>
+		</div> 
+	  </div><!--/ coll -->
+	  
+    </div><!--/ row --> 
+  </div>
+</section><!--/ form-wrap -->      
+
+<section class="why-choose-us">
+  <div class="container">
+    <div class="row">
+        
+      <div class="col-sm-12 mrb-30 aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		<h2><span>Lorem ipsum dolor sit amet</span> Our School Activities</h2>
+      </div><!--/ col -->
+	  
+	  <div class="col-sm-4 process-block aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="inner-box">
+		  <a href="#" class="full-link"></a>
+		  <div class="icon-box">
+            <figure class="icon"><img src="images/icon-01.png" alt="image"></figure>
+            <span class="count">01</span>
+          </div>
+          <div class="info-box">
+            <div class="inner">
+			  <h4 class="title">Achievements</h4>
+              <p class="text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+            </div>
+          </div>
+        </div>
+	  </div><!--/ process-block -->
+	  
+	  <div class="col-sm-4 process-block aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="inner-box">
+		  <a href="#" class="full-link"></a>
+		  <div class="icon-box">
+            <figure class="icon"><img src="images/icon-02.png" alt="image"></figure>
+            <span class="count">02</span>
+          </div>
+          <div class="info-box">
+            <div class="inner">
+			  <h4 class="title">Event Calander</h4>
+              <p class="text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+            </div>
+          </div>
+        </div>
+	  </div><!--/ process-block -->
+	  
+	  <div class="col-sm-4 process-block aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="inner-box">
+		  <a href="#" class="full-link"></a>
+		  <div class="icon-box">
+            <figure class="icon"><img src="images/icon-03.png" alt="image"></figure>
+            <span class="count">03</span>
+          </div>
+          <div class="info-box">
+            <div class="inner">
+			  <h4 class="title">Downloads</h4>
+              <p class="text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+            </div>
+          </div>
+        </div>
+	  </div><!--/ process-block -->
+      
+    </div>
+  </div>
+</section><!--/ why-choose-us --> 
+
+<section class="team-sec">
+  <div class="container">
+    <div class="row">
+	
+	  <div class="col-sm-12 team-full aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <h2><span>Our Founder Team</span>Message From Management</h2>
+	  </div>
+	  
+	  <div class="col-sm-4 aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="team-box">
+		  <figure><img src="images/team-01.jpg" alt=""></figure>
+		  <div class="caption">
+		    <h3>Sangeet Kohli <span>Managing Director</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua Utenim ad minim veniam quis nostrud exercitation ullamco laboris.</p>
+            <p><a href="#" class="btn">View More</a></p>
+		  </div>
+        </div>
+	  </div><!--/ col-sm -->
+
+	  <div class="col-sm-4 aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="team-box">
+		  <figure><img src="images/team-02.jpg" alt=""></figure>
+		  <div class="caption">
+		    <h3>Jyoti Garg <span>Principal</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua Utenim ad minim veniam quis nostrud exercitation ullamco laboris.</p>
+            <p><a href="#" class="btn">View More</a></p>
+		  </div>
+        </div>
+	  </div><!--/ col-sm -->
+
+	  <div class="col-sm-4 aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="team-box">
+		  <figure><img src="images/team-03.jpg" alt=""></figure>
+		  <div class="caption">
+		    <h3>Naresh Verma <span>Technical Support</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua Utenim ad minim veniam quis nostrud exercitation ullamco laboris.</p>
+            <p><a href="#" class="btn">View More</a></p>
+		  </div>
+        </div>
+	  </div><!--/ col-sm -->
+
+    </div><!--/ row --> 
+  </div>
+</section>
+
+<!--section class="pricing-table CPT">
+  <div class="container">
+    <div class="row">
+	
+	  <div class="col-sm-12 mrb-15">
+	    <h2><span>Fee Structure</span>Fee Details</h2>
+	  </div>
+	  
+	  <div class="col-sm-3 CPT-coll MG-Table MG-padd">
+	    <div class="info">
+		  <div class="heaidng"> </div>
+		  <ul>
+		    <li>Period of Payment</li>
+			<li>Last Date of Payment</li>
+			<li>Period of Payment with fine</li>
+		  </ul>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-3 CPT-coll MG-padd">
+	    <div class="info">
+		  <div class="heaidng">
+		    <h3>Quarter Months</h3>
+			<h4>April To June</h4>
+		  </div>
+		  <ul>
+		    <li>1st to 10th April</li>
+		    <li>10th April</li>
+		    <li><span>11th to 30th April</span></li>
+		  </ul>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-3 CPT-coll MG-padd">
+	    <div class="info">
+		  <div class="heaidng">
+		    <h3>Quarter Months</h3>
+			<h4>July To September</h4>
+		  </div>
+		  <ul>
+		    <li>1st to 10th July</li>
+			<li>10th July</li>
+		    <li><span>11th to 31st July</span></li>
+		  </ul>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-3 CPT-coll MG-padd">
+	    <div class="info">
+		  <div class="heaidng">
+		    <h3>Quarter Months</h3>
+			<h4>October To December</h4>
+		  </div>
+		  <ul>
+		    <li>1st to 10th October</li>
+			<li>10th October</li>
+		    <li><span>11th to 31st October</span></li>
+		  </ul>
+		</div>
+	  </div>
+	  
+	  <div class="col-sm-3 CPT-coll MG-padd">
+	    <div class="info">
+		  <div class="heaidng">
+		    <h3>Quarter Months</h3>
+			<h4>January To March</h4>
+		  </div>
+		  <ul>
+		    <li>1st to 10th January</li>
+			<li>10th January</li>
+		    <li><span>11th to 31st January</span></li>
+		  </ul>
+		</div>
+	  </div>
+	 
+    </div>
+  </div>
+</section-->
+
+<section class="client-speak">
+  <div class="container">
+    <div class="row">      
+	  
+	  <div class="col-sm-12 grid-client">
+	    <h2 class="aos-animate" data-aos="fade-up" data-aos-duration="1000"><span>Testimonial</span>Happy Students Feedback About Us</h2>
+		<div id="owl-demo-4" class="owl-carousel owl-theme aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		  
+		  <div class="item">
+		    <div class="item-bg">
+		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			  <div class="star"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-empty" aria-hidden="true"></i></div>
+			  <h4>Aruna Kumar<span>Lorem Ipsum Dummy Text</span></h4>
+			</div>
+		  </div><!--/ item -->
+		  
+		  <div class="item">
+		    <div class="item-bg">
+		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			  <div class="star"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-empty" aria-hidden="true"></i></div>
+			  <h4>Jyoti Sharma<span>Lorem Ipsum Dummy Text</span></h4>
+			</div>
+		  </div><!--/ item -->
+		  
+		  <div class="item">
+		    <div class="item-bg">
+		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			  <div class="star"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-empty" aria-hidden="true"></i></div>
+			  <h4>Manpreet Shandil<span>Lorem Ipsum Dummy Text</span></h4>
+			</div>
+		  </div><!--/ item -->
+		  
+		</div>
+      </div><!--/ grid-left -->  
+          
+    </div><!--/ row -->	
+  </div>
+</section><!--/ client-speak  --> 
+
+<footer class="footer">  
+   <div class="back-to-top"><a href="#Home" class="BackTo"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+   <script>
+$(document).ready(function(){
+ let scroll_link = $('.scroll');
+
+  //smooth scrolling -----------------------
+  scroll_link.click(function(e){
+      e.preventDefault();
+      let url = $('body').find($(this).attr('href')).offset().top;
+      $('html, body').animate({
+        scrollTop : url
+      },700);
+      $(this).parent().addClass('active');
+      $(this).parent().siblings().removeClass('active');
+      return false;	
+   });
+});
+</script>
+
+  <div class="container">
+  
+    <div class="row">
+      <div class="col-sm-12 footer-top">
+        <div class="wg-1">
+          <div class="ft-logo aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		    <a href="#"><img src="images/logo.png" alt="">
+			<span>Blooming Buds School <small>CBSE Affiliation No :  2430297</small></span>
+		  </a>
+		  </div>
+		  <div class="icon-ft aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+		    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+		    <a href="# " target="_blank"><i class="fa fa-instagram"></i></a> 
+		    <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+		  </div>
+        </div><!--/ wg-1 -->
+      </div><!--/ col-sm-3 -->
+	
+	  <div class="col-sm-8 footer-left">
+	    <div class="row">
+		  
+		  <div class="col-sm-4 aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		    <div class="wg-1">
+			  <h4>Quick Links</h4>
+			  <ul>
+			    <li><a href="index.html">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Faculty</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Activities</a></li>
+				<li><a href="#">Online Admission</a></li>
+			  </ul>
+			</div>
+		  </div><!--/ col-sm -->
+		  
+		  <div class="col-sm-4 aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		    <div class="wg-1">
+			  <h4>Imorpant Links</h4>
+			  <ul>
+				<li><a href="#">Media Center</a></li>
+				<li><a href="#">Useful Websites</a></li>
+				<li><a href="#">Our Alumni</a></li>
+				<li><a href="#">Group Institutions</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Check Mail</a></li>
+			  </ul>
+			</div>
+		  </div><!--/ col-sm -->
+		  
+		  <div class="col-sm-4 aos-animate" data-aos="fade-up" data-aos-duration="1000">
+		    <div class="wg-1">
+			  <h4>Contact us</h4>		          	  		
+			    <address>
+				  <!--i class="fa fa-map-marker" aria-hidden="true"></i-->
+				  <div><p><b>Head Office:</b> 4 WA (west ) 1st floor flat 108, Dubai Airport Free Zone, Dubai UAE.</p></div>
+				</address>
+				
+				<address>
+				  <i class="fa fa-phone" aria-hidden="true"></i>
+				  <div><p><a href="tel:+91 9876543210">Office : +91 9876543210</a> <br><a href="tel:+91 9876543210">Mob No. : +91 9876543210</a></p></div>
+				</address>
+				
+				<address>
+				  <i class="fa fa-envelope" aria-hidden="true"></i>
+				  <div><p><a href="mailto:blooming@gmail.com">blooming@gmail.com</a> <br><a href="mailto:info@blooming.com">info@blooming.com</a></p></div>
+				</address>	
+			</div><!--/ wg-1 -->
+		  </div><!--/ col-sm --> 
+           
+        </div><!-- row -->            
+      </div><!-- footer-left -->
+	  
+	  <div class="col-sm-4 footer-right aos-animate" data-aos="fade-up" data-aos-duration="1000">
+	    <div class="wg-1">
+		  <h4>Newsletter Signup</h4>
+	      <div class="newsletter">
+		    <p>Subscribe now and recieve a 15% discount on your next tour booking</p>
+		    <form>
+		      <div class="form-group"><input type="email" name="EMAIL" placeholder="Email Address" class="form-control"></div>
+			  <div class="form-group"><button type="submit" class="btn">Subscribe</button></div>
+		    </form>
+		  </div><!--/ newsletter -->
+		</div><!--/ wg-1 -->
+	  </div><!-- footer-right -->
+	  
+    </div><!-- row -->            
+  </div><!--/ container -->     
+  
+  <div class="ft-bottom">
+    <div class="container">
+      <div class="row">
+		
+		<div class="col-sm-12"><p class="copyright">Copyright © 2023 All Rights Reserved With Blooming Buds School.</p></div>		
+        
+      </div><!--/ row -->
+    </div>
+  </div><!--/ ft-bottom -->
+  
+</footer>
+
+</div><!--/ page-content -->
+</div><!--/ page-wrapper -->
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/menu.js"></script>	
+<script src="dist/aos.js"></script>	
+<script>
+var a = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > oTop) {
+    $('.counter-value').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 7000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });
+    });
+    a = 1;
+  }
+
+});
+
+$('#owl-demo-1').owlCarousel({
+    loop:true,
+	autoplay:1000,
+    autoplayHoverPause:true,
+	autoplayTimeout:3000,
+    margin:0,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+}) 
+
+$('#owl-demo-2').owlCarousel({
+    loop:true,
+	autoplay:1000,
+    autoplayHoverPause:true,
+	autoplayTimeout:3000,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+}) 
+
+$('#owl-demo-3').owlCarousel({
+    loop:true,
+	autoplay:1000,
+    autoplayHoverPause:true,
+	autoplayTimeout:3000,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+})  
+
+$('#owl-demo-4').owlCarousel({
+    loop:true,
+	autoplay:1000,
+    autoplayHoverPause:true,
+	autoplayTimeout:3000,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})  
+</script>
+		  
+</body>
+<script>
+  AOS.init();
+</script>
+</html>
